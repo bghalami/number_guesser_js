@@ -11,13 +11,17 @@
     <div class='header'>
       <h1><span class="first">Number</span> <span class="second">Guesser</span></h1>
     </div>
-    <form>
-      <input type="text" placeholder="Guess a number!"/>
-      <button type="button" class="guess disabled-button">GUESS</button>
-      <button type="button" class="clear disabled-button">CLEAR</button>
-      <button type="button" class="reset disabled-button">RESET</button>
-    </form>
+    <div class='guesser'>
+      <input type="text" class="enter-guess" placeholder="Enter your guess"/>
+      <br>
+      <br>
+      <div class='buttons'>
+        <button type="button" class="guess disabled-button">GUESS</button>
+        <button type="button" class="clear disabled-button">CLEAR</button>
+      </div>
     <h5 class='last-announce'>Your last guess was</h5>
-    <div class='last-guess'>last-guess</div>
+    <h4 class='last-guess'>~</h4>
+    <button type="button" class="reset disabled-button">RESET</button>
+    </div>
   </body>
 </html>

@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.guesser {
+  margin: 10px auto 10px auto;
+  width: 380px;
+}
+
+.enter-guess {
+  font-size: 24px;
+  width: 380px;
+  font-weight: 300;
+}
+
+
+.buttons {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-announce {
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #404041;
+}
+
+.last-guess {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #EB008B;
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+
+.header {
+  background-color: #404041;
+  padding: 10px 0px 10px 0px;
+}
+
+.first {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #ED458B;
+}
+
+.second {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #E6E7E8;
+}
+
+.enabled-button {
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #929497;
+  border: 0px;
+  border-radius: 70px;
+  font-size: 24px;
+}
+
+.enabled-button:hover{
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #EB008B;
+  border: 0px;
+  border-radius: 70px;
+  font-size: 24px;
+}
+
+.disabled-button {
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #D0D2D3;
+  border: 0px;
+  border-radius: 70px;
+  font-size: 24px;
+}
+
+.guess {
+  width: 180px;
+}
+
+.clear {
+  width: 180px;
+}
+
+.reset {
+  width: 380px;
+}

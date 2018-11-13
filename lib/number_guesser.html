@@ -1,0 +1,23 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,700">
+    <link rel="stylesheet" href="number_guesser_style.css">
+    <script type="text/javascript" src="number_guesser_logic.js"></script>
+  </head>
+  <body>
+    <div class='header'>
+      <h1><span class="first">Number</span> <span class="second">Guesser</span></h1>
+    </div>
+    <form>
+      <input type="text" placeholder="Guess a number!"/>
+      <button type="button" class="guess disabled-button">GUESS</button>
+      <button type="button" class="clear disabled-button">CLEAR</button>
+      <button type="button" class="reset disabled-button">RESET</button>
+    </form>
+    <h5 class='last-announce'>Your last guess was</h5>
+    <div class='last-guess'>last-guess</div>
+  </body>
+</html>

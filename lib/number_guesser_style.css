@@ -31,6 +31,13 @@ h1 {
   color: #404041;
 }
 
+.high-low {
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #404041;
+}
+
 .last-guess {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;

@@ -12,17 +12,20 @@
       <h1><span class="first">Number</span> <span class="second">Guesser</span></h1>
     </div>
     <div class='guesser'>
-      <input type="text" class="enter-guess" placeholder="Enter your guess"/>
+      <input type="text" oninput="buttonUp()" class="enter-guess" placeholder="Enter your guess"/>
+      <input type="text" class="set-min" placeholder="Enter Min"/>
+      <input type="text" class="set-max" placeholder="Enter Max"/>
+      <button type="button" onclick="setRange(0,0); enableReset();" class="set-range enabled-button">SET RANGE</button>
       <br>
       <br>
       <div class='buttons'>
-        <button type="button" class="guess disabled-button">GUESS</button>
-        <button type="button" class="clear disabled-button">CLEAR</button>
+        <button type="button" onclick="guess(); enableReset();" class="guess disabled-button">GUESS</button>
+        <button type="button" onclick="clearText(); buttonUp();" class="clear disabled-button">CLEAR</button>
       </div>
     <h5 class='last-announce'>Your last guess was</h5>
     <h4 class='last-guess'>~</h4>
-    <h4 class='high-low'>...</h4>
-    <button type="button" class="reset disabled-button">RESET</button>
+    <h4 class='high-low' id='message'>...</h4>
+    <button type="button" class="reset disabled-button" onclick="redoTheGame()">RESET</button>
     </div>
   </body>
 </html>

@@ -6,6 +6,10 @@ h1 {
   font-size: 48px;
 }
 
+.set-range {
+  margin-top: 5px;
+}
+
 .guesser {
   margin: 10px auto 10px auto;
   width: 380px;
@@ -17,6 +21,23 @@ h1 {
   font-weight: 300;
 }
 
+.set-min {
+  font-size: 18px;
+  width: 160px;
+  font-weight: 300;
+  margin: 5px;
+}
+
+.set-max {
+  font-size: 18px;
+  width: 160px;
+  font-weight: 300;
+  margin: 5px;
+}
+
+.hider {
+  visibility: hidden;
+}
 
 .buttons {
   width: inherit;
@@ -29,6 +50,20 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #404041;
+}
+
+.high-low {
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #404041;
+}
+
+.high-low-error {
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: red;
 }
 
 .last-guess {
@@ -81,6 +116,7 @@ h1 {
   border: 0px;
   border-radius: 70px;
   font-size: 24px;
+  pointer-events: none;
 }
 
 .guess {
